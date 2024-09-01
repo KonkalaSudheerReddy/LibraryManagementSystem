@@ -1,0 +1,43 @@
+This enhanced version of the Library Management System incorporates more advanced OOP concepts as requested. Here's a breakdown of the changes and additions:
+
+Interface:
+
+Added Borrowable interface for library items.
+Added LibraryUser interface for different types of users.
+
+
+Polymorphism:
+
+The LibraryItem abstract class implements the Borrowable interface.
+Different user types (RegularUser and PremiumUser) implement the LibraryUser interface.
+The Library class uses LibraryItem and LibraryUser interfaces, allowing for different implementations.
+
+
+Inheritance:
+
+Book and DVD classes extend the LibraryItem abstract class.
+This demonstrates how different types of library items can share common properties and behaviors.
+
+
+Additional OOP Concepts:
+
+Encapsulation: Private fields with public methods for access.
+Abstraction: Abstract LibraryItem class and interfaces.
+
+
+New Features:
+
+Added a DVD class to demonstrate different types of library items.
+Introduced Regular and Premium user types with different borrowing limits.
+Used Java 8+ features like streams for filtering items.
+
+
+
+This system now demonstrates a more comprehensive use of OOP concepts while maintaining and expanding its functionality. Users can borrow both books and DVDs, and the system differentiates between regular and premium users.
+To use this system:
+
+Save the code in a file named LibraryManagementSystem.java.
+Compile the code using javac LibraryManagementSystem.java.
+Run the program using java LibraryManagementSystem.
+
+The system will initialize with sample books, DVDs, and users. When a new user enters the library, they'll be prompted to specify if they're a regular or premium user.
