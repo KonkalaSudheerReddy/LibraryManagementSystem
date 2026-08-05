@@ -41,3 +41,5 @@ Compile the code using javac LibraryManagementSystem.java.
 Run the program using java LibraryManagementSystem.
 
 The system will initialize with sample books, DVDs, and users. When a new user enters the library, they'll be prompted to specify if they're a regular or premium user.
+
+note :practice 
